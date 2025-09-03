@@ -16,7 +16,7 @@ for key, value in Dic.items():
 
 #Example
 
-Result ={"Aftab",
+Result ={
     "Maths" : 75,
     "Biology" : 78,
     "Chemistry" : 76,
