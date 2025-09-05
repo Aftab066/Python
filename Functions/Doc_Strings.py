@@ -6,3 +6,4 @@ def Cube(X):
 
 Cube(5)
 print(Cube.__doc__)
+#Thanks
