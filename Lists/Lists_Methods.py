@@ -19,3 +19,5 @@ l =[10,20,30,60,90,50,20]
 #Concanated Two List
 M=[666,1111,777]
 print(l+M)
+
+#Thanks
