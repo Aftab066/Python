@@ -7,3 +7,5 @@ for color in colors:
 # For Loop With Range Function
 for i in range(5):
     print(i)
+
+#Thanks
