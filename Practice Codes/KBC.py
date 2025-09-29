@@ -74,7 +74,7 @@ if(Ans4==CAns[2]):
     Prize.append(80000)
 elif(Ans4=="Exit"):
     print("Sorry",Name,"You Lost The Game")
-     print("Exited Sucessfully")
+    print("Exited Sucessfully")
     exit()
 else:
     print("Invalid")
