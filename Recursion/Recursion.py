@@ -27,5 +27,3 @@ def fib(num):
 print(fib.__doc__)
 for i in range(5):
   print(fib(i),end=" ")
-  
-#Thanks
