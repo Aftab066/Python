@@ -21,4 +21,3 @@ dict = {"name" : "Aftab", "Age" :20, "Can Vote" : True}
 print(dict)
 #This Is Dictonary Data Type
 
-#Thanks
