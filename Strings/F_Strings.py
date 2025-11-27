@@ -8,3 +8,9 @@
 
 text=("My Name Is {}, I am From {}")
 print(text.format("Aftab","India"))
+
+
+subject = (input("Enter The Subject Name : "))
+marks = (input("Enter the marks Obtain : "))
+
+print(f"Aftab Got {marks} in {subject}")
