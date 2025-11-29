@@ -4,6 +4,8 @@ text = ""
 letter = ""
 codels = []
 decodels = []
+remove = ""
+Remove = ""
 
 #Section 1 : Taking Task From User
 if (msg == "Code" or msg == "code"):
@@ -35,3 +37,11 @@ if(len(letter) < 3):
     decodels.reverse()
     simple1 = '' .join(decodels)
     print(simple1)
+elif(len(letter)>3):
+    decodels = list(letter)
+    remove = decodels[:3]
+    del decodels[:3]
+    decodels.extend(remove)
+    simple2 = "" .join(decodels)
+    print(simple2)
+
