@@ -28,3 +28,10 @@
 
 # f = open('Myfile.txt', 'r t') # Here t Is For Text file t is by default and is for b like below
 # f = open('Myfile.txt', 'r b') # b for bin or other files
+
+#The Simple Syntax For File IO 
+with open('myfile.txt', 'r') as f:
+    text= f.read()
+    print(text)
+
+# Here In This Synatx We do not need close keyword to close the file it automatically closes it
