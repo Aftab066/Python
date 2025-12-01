@@ -20,7 +20,34 @@
 
 #Writelines 
 
+# f = open('myfile.txt', 'w')
+# lists = ['Line 1 \n ', 'Line 2 \n ', 'Line 3 \n']
+# f.writelines(lists)
+# f.close
+
+#Seek() Function Is a function that takes value above seek
+#Seek Means To Avoid that index
+
+# f = open('myfile.txt', 'r')
+# f.seek(5)
+# print(f.read())
+# f.close
+
+#Tell() Functions Tells Us That Current Position Of The Function
+
+# f = open('myfile.txt', 'r')
+# f.seek(5)
+# f.tell()
+# print(f.tell())
+# print(f.read())
+# f.close
+
+#Truncate() Function Prints The Character That Is Truncate for example
+
 f = open('myfile.txt', 'w')
-lists = ['Line 1 \n ', 'Line 2 \n ', 'Line 3 \n']
-f.writelines(lists)
+f.write("Aftab Is Cool")
+f.truncate(5)
 f.close
+
+with open('myfile.txt' , 'r') as f:
+    print(f.read())
