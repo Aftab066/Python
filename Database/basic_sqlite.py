@@ -21,8 +21,19 @@ age INTEGER
 # print("Executed Successfully")
 
 #Enter Value In Table
-c.execute(" INSERT INTO students (name,age) VALUES (?,?)", ('Aftab',20))
-c.execute("SELECT * FROM students")
-print(c.fetchall())
+c.executemany(" INSERT INTO students (name,age) VALUES (?,?)", 
+[('Aftab',20),
+('Omkar',24),
+('Nishant',25),
+('Nikhil',21),
+('Ammar',19)
+])
+#To Search
+c.execute("SELECT * FROM students WHERE name=?",("Aftab",))
+#
+c.execute("SELECT * FROM students WHERE name=?",("Aftab",))
+items = c.fetchall()
+for item in items:
+    print(item)
 conn.commit
 conn.close
