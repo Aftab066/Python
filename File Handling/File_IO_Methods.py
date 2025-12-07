@@ -4,18 +4,20 @@
 
 #Readlines 
 
-# f = open('myfile.txt', 'r')
-# i = 0
-# while True:
-#     i = i+1
-#     lists = f.readline()
-#     if not lists :
-#         break
-#     n1= lists.split(",")[0]
-#     c1= lists.split(",")[1]
-#     no1= lists.split(",")[2]
-#     print(f"My Name is {n1} And I'm From {c1} My Fav No Is {no1}")
-#     print(lists)
+f = open('myfile.txt', 'r')
+i = 0
+while True:
+    i = i+1
+    lists = f.readline().strip()
+    if not lists :
+        break
+    
+    n1= lists.split(",")[0]
+    c1= lists.split(",")[1]
+    no1= lists.split(",")[2]
+    lists = lists.split(",")
+    print(f"My Name is {n1} And I'm From {c1} My Fav No Is {no1}")
+    print(type(lists))
 
 
 #Writelines 
@@ -44,10 +46,10 @@
 
 #Truncate() Function Prints The Character That Is Truncate for example
 
-f = open('myfile.txt', 'w')
-f.write("Aftab Is Cool")
-f.truncate(5)
-f.close
+# f = open('myfile.txt', 'w')
+# f.write("Aftab Is Cool")
+# f.truncate(5)
+# f.close
 
-with open('myfile.txt' , 'r') as f:
-    print(f.read())
+# with open('myfile.txt' , 'r') as f:
+#     print(f.read())
