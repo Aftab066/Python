@@ -44,3 +44,4 @@ Items2 = {"Area5","Area6","Area7","Area8"}
 #delete
 del Items2
 print(Items2)
+#Thanks 
