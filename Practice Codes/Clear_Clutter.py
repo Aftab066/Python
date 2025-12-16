@@ -16,3 +16,5 @@ for file in os.listdir(path):
         new_path = os.path.join(path,f"pic{fn}.jpg")
         os.rename(old_path,new_path)
         print(file)
+        
+        

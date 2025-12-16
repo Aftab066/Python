@@ -1,11 +1,3 @@
-# import tkinter as tk
-
-# root = tk.Tk()
-# root.title("Window")
-# root.geometry("1800x1800")
-
-# root.mainloop()
-
 import tkinter as tk
 
 def clicked():
@@ -13,7 +5,6 @@ def clicked():
 
 root = tk.Tk()
 root.title("Asma Mulani")
-root.geometry("500x300")
 
 btn = tk.Button(root, text="Click Me", command=clicked)
 btn.pack()
