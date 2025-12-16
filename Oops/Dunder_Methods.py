@@ -2,7 +2,7 @@
 #__len__ : To Get Len Of Object
 #__str__ : 
 #__repr__ :
-#__call__ : To Make Object Calalable
+#__call__ : To Make Object Callable
 
 class Employee:
     def __init__(self,name):
