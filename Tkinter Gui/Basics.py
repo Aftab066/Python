@@ -12,7 +12,7 @@ def clicked():
     print("Alhamdulillah!")
 
 root = tk.Tk()
-root.title("Button Example")
+root.title("Asma Mulani")
 
 btn = tk.Button(root, text="Click Me", command=clicked)
 btn.pack()
