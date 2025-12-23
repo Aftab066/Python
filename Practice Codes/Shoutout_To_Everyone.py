@@ -10,9 +10,8 @@ spk.SetVoice(vcs.Item(speaker_number)) # set voice (see Windows Text-to-Speech s
 lst = ["Shoutout To Aftab",
        "Shoutout To Omkar",
        "Shoutout To Nikhil"]
-# spk.Speak("Hey I Am Jarvis")r
-# spk.Speak("Welcome To Aftab's Lab")
-for i in lst:
+
+for i in lst:   
     print(i)
     spk.Speak(i)
 # spk.Speak("All Out")
