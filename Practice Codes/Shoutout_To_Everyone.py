@@ -15,3 +15,4 @@ for i in lst:
     print(i)
     spk.Speak(i)
 # spk.Speak("All Out")
+
