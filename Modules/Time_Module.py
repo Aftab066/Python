@@ -19,3 +19,18 @@ import time
 # t = time.localtime()
 # print(t.tm_hour,":",t.tm_min,":",t.tm_sec)
 
+#time.strftime() :- for displaying custom time
+# %d :- For Day
+# %m :- month
+# %Y : - year
+# %H :- hour
+# %M :- minute
+# %S :- second 
+
+t = time.localtime()
+Date = time.strftime("%d-%m-%Y",t)
+Waqt = time.strftime("%H-%M-%S",t)
+
+print(Date)
+print(Waqt)
+
