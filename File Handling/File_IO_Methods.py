@@ -53,4 +53,3 @@ while True:
 
 # with open('myfile.txt' , 'r') as f:
 #     print(f.read())
-#Thanks
