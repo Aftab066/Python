@@ -1,17 +1,19 @@
-#This Inline String
+# #This Inline String
 
-print("Hello Coder")
+# print("Hello Coder")
 
-#This Is MultiLine String
-#Triple Quote Is Used For Multiline String
+# #This Is MultiLine String
+# #Triple Quote Is Used For Multiline String
 
-print('''Hello Coder 
-Lets
-Make
-Code Using
-Python''')
+# print('''Hello Coder 
+# Lets
+# Make
+# Code Using
+# Python''')
 
-#Accesing Character In Strings
+# #Accesing Character In Strings
 
-Name = "Aftab"
-print(Name[2])
+# Name = "Aftab"
+# print(Name[2])
+
+
