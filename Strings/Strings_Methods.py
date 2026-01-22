@@ -55,3 +55,4 @@ print(Text.swapcase())
 
 #It Converts The String Into Title Format
 print(Text.title())
+#Thanks 
