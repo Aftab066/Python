@@ -6,11 +6,11 @@ def Window():
     app = QApplication(sys.argv)
     win = QMainWindow()
     win.setGeometry(200,200,500,500)
-    win.setWindowTitle("Hello World")
-    label = QtWidgets.QLabel(win)
+    win.setWindowTitle("Text  Changer App")
+    label = QtWidgets.QLabel('Zikr',win)
     def Text():
         label.setText("Alhamdulillah")
-    label.move(100,100)
+    label.move(150,100)
     
     btn = QPushButton("Click Me",win) #Creates A Button In Window
     btn.move(100,200) #Position Of Button
