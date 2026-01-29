@@ -8,12 +8,13 @@ def Window():
     win.setGeometry(200,200,500,500)
     win.setWindowTitle("Hello World")
     label = QtWidgets.QLabel(win)
-    label.setText("Aftab")
+    def Text():
+        label.setText("Alhamdulillah")
     label.move(100,100)
     
     btn = QPushButton("Click Me",win) #Creates A Button In Window
     btn.move(100,200) #Position Of Button
-    btn.clicked.connect(lambda:print("Alhamdulillah")) #Data To Be Executed When Clicked
+    btn.clicked.connect(Text) #Data To Be Executed When Clicked
     win.show()
     sys.exit(app.exec())
 
