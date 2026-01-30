@@ -9,7 +9,7 @@ def Window():
     win.setWindowTitle("Text  Changer App")
     label = QtWidgets.QLabel('Zikr',win)
     def Text():
-        label.setText("Alhamdulillah")
+        label.setText("Alhamdulillah!!!!")
     label.move(150,100)
     
     btn = QPushButton("Click Me",win) #Creates A Button In Window
