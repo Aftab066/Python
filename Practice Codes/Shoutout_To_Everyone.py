@@ -7,7 +7,8 @@ vcs = spk.GetVoices()
 # print(vcs.Item (speaker_number) .GetAttribute ("Name")) # speaker name
 spk.Voice
 spk.SetVoice(vcs.Item(speaker_number)) # set voice (see Windows Text-to-Speech settings)
-lst = ["Shoutout To Aftab",
+lst = ["Shoutout To Ismail",
+       "Shoutout To Parvej",
        "Shoutout To Omkar",
        "Shoutout To Nikhil"]
 
