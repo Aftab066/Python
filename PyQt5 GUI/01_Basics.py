@@ -6,7 +6,7 @@ def Window():
     app = QApplication(sys.argv) #Soul Of PyQt5 If It Is not there it will not run code
     win = QMainWindow() # Main Window
     win.setGeometry(200,200,500,500) #Size Of Our Window 
-    win.setWindowTitle("Hello World") #Title Of Our Application
+    win.setWindowTitle("Hello World!!!") #Title Of Our Application
     label = QtWidgets.QLabel(win) #Text Inside Window
     label.setText("Aftab") #Label Data
     label.move(100,100) #Moves The Label 
