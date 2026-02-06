@@ -19,4 +19,3 @@ print(a1.id)
 print(a1.clg)
 print(a.name)
 print(a.id)
-#Super
