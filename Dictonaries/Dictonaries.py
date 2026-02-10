@@ -25,4 +25,3 @@ Result ={
 
 print(Result)
 #Thanks
-#Aftab
