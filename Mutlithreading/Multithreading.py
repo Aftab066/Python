@@ -23,4 +23,3 @@ time2 = time.perf_counter()
 print(time2-time1)  
 
 #Threading : Is Used To run Multi Programs At Once/Parall
-#Thanks
