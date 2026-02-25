@@ -2,3 +2,4 @@
 while (msg := input("Enter The Message To Display It \n To Quit Type (Exit):  ")) != "Exit":
     print("Your Mesaage :- \n ",msg)
 #Thanks 
+#Aftab 
