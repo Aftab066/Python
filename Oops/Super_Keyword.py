@@ -11,7 +11,7 @@ class Childclass(Parentclass):
         self.clg = clg
         
     
-a = Parentclass("Aftab",555)
+a = Parentclass("Aftab06",555)
 a1 = Childclass("Nikhil",111,"Yc Karad")
 
 print(a1.name)
