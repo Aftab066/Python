@@ -7,4 +7,3 @@ print("The Multiplication Of Num1 And Num2 Is : ", Num1*Num2)
 print("The Division Of Num1 And Num2 Is : ", Num1/Num2)
 
 #This Is A Simple Calculator Made Using Python
-#Thanks
