@@ -5,15 +5,15 @@
 
 class YC:
     clg = "Yc Karad " # Class Variable
-    def __init__(self,name,branch):
+    def __init__(self,name,branch): #The Variables Inside The Constructor Are Instance Variable
         self.name = name
         self.branch = branch
     def id(self):
         print(f"The College name : {self.clg} \n Student name :{self.name} \n Branch : {self.branch}")
     
-s1 = YC("Aftab","CS")  # Instance Variable
-s1.clg = "YC Satara"
-s1.id()
+s1 = YC("Aftab","CS")
+s1.clg = "YC Satara" #Update Only For s1 Object The changes are applied before calling the function
+s1.id() # After Func executes the default changes are applied
 s2 = YC("Omkar","Chemistry") 
 s2.id()
 
