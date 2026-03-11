@@ -13,7 +13,7 @@ class YC:
     
 s1 = YC("Aftab","CS")
 s1.clg = "YC Satara" #Update Only For s1 Object The changes are applied before calling the function
-s1.id() # After Func executes the default changes are applied
+s1.id() # After Method executes the default changes are applied
 s2 = YC("Omkar","Chemistry") 
 s2.id()
 
