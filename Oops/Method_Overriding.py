@@ -16,6 +16,6 @@ class Circle(Shape):
         return 3.14 * super().area()
         
 # rec = Shape(4,5)
-# print(rec.area())
+# print(rec.area())  #AREA
 c = Circle(5)
 print(c.area())
