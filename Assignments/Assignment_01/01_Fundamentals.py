@@ -97,3 +97,7 @@ d = x - z
 print("The Integer Part :",z)
 print("The Float  Part :",d)
 
+
+'''Total Questions :- 10
+Attemped :- 10
+Topics Covered :- Python Fundamentals, Basic Input Function & Datatypes'''
