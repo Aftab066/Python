@@ -62,3 +62,19 @@ print(sum(n))
         
         
 #Question 7 :
+
+'''while True:
+    x = input("Enter The Number : ")
+    if(x.lower()=="quit" or x.lower()=='exit'):
+        print("Program Ended")
+        break
+    
+    n = float(x)
+    if((n>0)):
+        print(f"The Number Is Positive : {n}")
+    elif((n<0)):
+        print(f"The Number Is Negative : {n}")
+    else:
+        print("The Number Is Neutral {n}")'''
+        
+        
