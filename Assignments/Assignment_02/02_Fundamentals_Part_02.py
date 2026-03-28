@@ -75,6 +75,26 @@ print(sum(n))
     elif((n<0)):
         print(f"The Number Is Negative : {n}")
     else:
-        print("The Number Is Neutral {n}")'''
+        print(f"The Number Is Neutral {n}")'''
         
         
+# Question 8 :
+
+'''def calculator(a,b,operator):
+    if(operator=='+'):
+        print(f"The Addition Of {a} + {b} : ",a+b)
+    elif(operator=='-'):
+        print(f"The Subtraction Of {a} - {b} : ",a-b)
+    elif(operator=='*'):
+        print(f"The Multiplication Of {a} X {b} : ",a*b)
+    elif(operator=='/'):
+        print(f"The Division Of {a} / {b} : ",a/b)
+    else:
+        print("Enter The Valid Operator!")
+        
+a = int(input("Enter The Num 1 Twinn!"))
+b = int(input("Enter The Num 2 Twinn!"))
+operator = input("Enter The Operator  Twinn! (+,-,*,/)")
+
+calculator(a,b,operator)'''
+
