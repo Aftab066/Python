@@ -114,7 +114,7 @@ print(is_prime(n))'''
 
 
 while True:
-    n = ("Enter the Number To Guess")
+    n = int(input("Enter the Number To Guess "))
     x=210
     if(n>x):
       print("Too High ")
