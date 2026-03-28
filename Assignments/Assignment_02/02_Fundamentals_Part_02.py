@@ -98,3 +98,31 @@ operator = input("Enter The Operator  Twinn! (+,-,*,/)")
 
 calculator(a,b,operator)'''
 
+#Question 9 :
+
+'''def is_prime(n):
+    for i in range(2,n):
+        if(n%i==0):
+            return False
+        else:
+            return True
+        
+n = int(input("Enter The Num : "))
+print(is_prime(n))'''
+
+#Question 10 :
+
+
+while True:
+    n = ("Enter the Number To Guess")
+    x=210
+    if(n>x):
+      print("Too High ")
+    elif(n<x):
+      print("Too Low")
+    elif(n==x):
+      print("Correct")
+            
+    
+
+
