@@ -1,8 +1,5 @@
-N = int(input("Enter The Num Twinn!! : "))
-x=0
-for i in range(1,N+1):
-    x+=i
-    
-    
-print(x)
-    
+def avg(a,b,c):
+    s = a+b+c
+    return s/3
+
+print(avg(30,45,67))
