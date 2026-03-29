@@ -21,10 +21,11 @@ print(final)'''
 
 #Question 3 : 
 
-usr1 = (input("Enter The Numbers : ")).split()
+'''usr1 = (input("Enter The Numbers : ")).split()
 usr2 = (input("Enter The Numbers : ")).split()
 
 final = usr1+usr2
 final.sort()
 
-print(final)
+print(final)'''
+
