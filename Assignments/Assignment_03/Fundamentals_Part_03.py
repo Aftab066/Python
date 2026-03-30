@@ -83,3 +83,37 @@ while True:
             '''
             
 #Question 6 :
+
+'''Fruits = ["Apple","Banana","Kiwi","Cherry","Mango"]
+f = {}
+
+for i in Fruits:
+    f[i] = len(i)
+    
+    
+print(f)'''
+
+#Question 7 :
+
+x = input("Enter The Numbers : ").split()
+y = input("Enter The Numbers : ").split()
+
+s1 = set()
+s2 = set()
+d1 = set()
+d2 = set()
+
+for i in x:
+    if (i in s1):
+        d1.add(i)
+    else:
+        s1.add(i)
+        
+for j in y:
+    if (j in s2):
+        d2.add(j)
+    else:
+        s2.add(j)
+        
+print(s1)
+print(s2)
