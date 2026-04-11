@@ -9,7 +9,7 @@ class Store:
         print(f"The Final Price Is {f_price}")
         
 s1 = Store("Iphone",85000)
-s1.calc_disc(100000,5)
+Store.calc_disc(100000,5)
 
 print(s1.name)
 print(s1.price)
