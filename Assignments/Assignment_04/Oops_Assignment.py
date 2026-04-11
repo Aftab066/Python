@@ -124,3 +124,109 @@
 
 # r = Rectangle(6,3)
 # print(r.Area())
+
+#Question 5 :
+
+# class Vehicle :
+#     brand = "Suzuki"
+#     model = 2026
+# class Car(Vehicle):
+#     def __init__(self,seats):
+#         self.seats = seats
+        
+# class bike(Vehicle):
+#     def __init__(self,engine_cc):
+#         self.engine_cc = engine_cc
+        
+                 
+# c = Car(6)
+# print(c.brand)
+# print(c.model)
+# print(c.seats)
+
+# b = bike(900)
+# print(b.brand)
+# print(b.model)
+# print(b.engine_cc)
+
+#Question 6 :
+
+# from abc import ABC ,abstractmethod
+
+# class Employee(ABC):
+#     @abstractmethod
+#     def calc_salary(self):
+#         pass
+    
+# class Intern(Employee):
+#     def __init__(self,hours):
+#         self.hours = hours
+        
+#     def calc_salary(self):
+#         return self.hours * 120
+    
+    
+# class Ft_Employee(Employee):
+#     def __init__(self,hours):
+#         self.hours = hours
+        
+#     def calc_salary(self):
+#         return self.hours * 200
+    
+
+# class C_Employee(Employee):
+#     def __init__(self,hours):
+#         self.hours = hours
+        
+#     def calc_salary(self):
+#         return self.hours * 150      
+   
+   
+# i = Intern(4)
+# print(i.calc_salary())
+    
+# f = Ft_Employee(9)
+# print(f.calc_salary())
+
+# c = C_Employee(6)
+# print(c.calc_salary())    
+
+#Question 7 :
+
+# class Person:
+#     def __init__(self,name=None,age=None,address=None):
+#         self.name = name 
+#         self.age = age
+#         self.address = address
+        
+        
+# s1 = Person("Aftab")
+# s2 = Person("Aftab",21)
+# s3 = Person("Aftab",21,"Satara")
+
+# print(s1.name)
+# print(s2.name,s2.age)
+# print(s3.name,s3.age,s3.address)
+
+#Question 8 :
+
+# class Player:
+#     count = 0
+#     def __init__(self,name,level):
+#         self.name = name
+#         self.level = level
+#         Player.count += 1
+        
+#     @classmethod    
+#     def show_count(cls):
+#         print(f"Total Players Created : {cls.count}")
+        
+        
+# p1 = Player("Aftab",100)
+# p2 = Player("Omkar",80)
+# p3 = Player("Nikhil",90)
+
+# Player.show_count()
+
+
+#Question 9 :
