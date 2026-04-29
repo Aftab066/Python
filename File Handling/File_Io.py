@@ -35,4 +35,3 @@ with open('myfile.txt', 'r') as f:
     print(text)
 
 # Here In This Synatx We do not need close keyword to close the file it automatically closes it
-#Thank-You
